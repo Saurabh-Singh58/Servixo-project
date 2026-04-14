@@ -1,10 +1,18 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.html");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="servixo.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -12,6 +20,29 @@
 
     <header class="header">
         <nav>
+
+         <div class="nav-right">
+           
+  <?php if (isset($_SESSION['user_id'])) { ?>
+
+            <span class="welcome">
+                Welcome <?php echo $_SESSION['user_name']; ?> 👋
+            </span>
+
+            <a href="logout.php" class="logout-btn">Logout</a>
+
+        <?php } else { ?>
+
+            <a href="login.html" class="nav-btn">Login</a>
+            <a href="signup.html" class="nav-btn signup">Sign Up</a>
+
+        <?php } ?>
+        </div>
+        <!-- <hr> -->
+
+
+
+ 
         <div class="navbar">
             <img class="servixo_logo" src="Servixo_logo.png">
 
@@ -25,17 +56,17 @@
             </span>
             </div>
             
-            <a href="servixo.html" class="Home">Home</a>
-            <a href="services.html" class="service">Services</a>
-            <a href="about.html" class="aboutUs">About Us</a>
+            <a  href="home.php" class="home anchor">Home</a>
+            <a href="services.php" class="service anchor">Services</a>
+            <a href="about.php" class="aboutUs anchor">About Us</a>
             
 
-           
+<!--            
             <div class="nav_btn">
-            <button class="login">Login</button>
-            <button class="sign_up">Sign Up</button>
+            <button class="login"><a href="login.html">Login </a></button>
+            <button class="sign_up"> <a href="signup.html">Sign Up </a></button>
 
-            </div>
+            </div> -->
          
 
         </div>
@@ -470,7 +501,7 @@
 
 <!-- <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script> -->
 
-<script src="servixo.js"></script>
+<script src="home.js"></script>
      
     
 </body>
