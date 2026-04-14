@@ -83,7 +83,7 @@ if (!isset($_SESSION['user_id'])) {
 
     <div class="hero_title">
       <h5>
-        <a href="servixo.html">Home ></a>
+        <a href="home.php">Home ></a>
         Services
       </h5>
       <h1>Premium Home Services, <br> Right at Your Doorstep</h1>
@@ -455,8 +455,8 @@ if (!isset($_SESSION['user_id'])) {
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="about.php">About Us</a></li>
           <li><a href="#">How it Works</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>

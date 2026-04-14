@@ -82,7 +82,7 @@ if (!isset($_SESSION['user_id'])) {
     <p class="hero-description">From home repairs to personal care, book trusted <br> professionals near you.</p>
     
     <div class="hero-btns">
-      <button class="btn-primary"> <a href="services.html">Explore Services ></a></button>
+      <button class="btn-primary"> <a href="services.php">Explore Services ></a></button>
       <button class="btn-secondary">How it works <span id="arrowIcon">▶</span></button>
       
     </div>
@@ -255,7 +255,7 @@ if (!isset($_SESSION['user_id'])) {
 
 <section class="popular_services-section">
   <h2 class="service_title">Popular Services 
-    <span class="viewAll_title"><a href="services.html">View All
+    <span class="viewAll_title"><a href="services.php">View All
       <i class="fa-solid fa-chevron-right"></i></a>
     </span>
   </h2>
@@ -450,8 +450,8 @@ if (!isset($_SESSION['user_id'])) {
     <div class="footer-col">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="about.php">About Us</a></li>
         <li><a href="#">How it Works</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>

@@ -90,7 +90,7 @@ if (!isset($_SESSION['user_id'])) {
 
      <!-- Right Content -->
     <div class="about_content">
-        <a href="about.html">ABOUT US</a>
+        <a href="about.php">ABOUT US</a>
          <h1>About <span class="first">Servi</span><span class="second">xo</span></h1>
 
        
@@ -164,8 +164,8 @@ if (!isset($_SESSION['user_id'])) {
     <div class="footer-col">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="about.php">About Us</a></li>
         <li><a href="#">How it Works</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
