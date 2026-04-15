@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Card */
+.container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 480px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Heading */
+.container h2 {
+    color: #2ecc71;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Info text */
+.container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.container p b {
+    color: #000;
+}
+
+/* Button */
+.home-btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #4facfe;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.home-btn a{
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    background: #007bff;
+    transform: translateY(-2px);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
