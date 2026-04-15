@@ -18,8 +18,13 @@ body {
   height: 100vh;
 }
 
+
+
 /* Left Section */
+
+ 
 .left {
+  
   flex: 1;
   color: white;
   display: flex;

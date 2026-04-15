@@ -353,7 +353,7 @@ if (!isset($_SESSION['user_id'])) {
       <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(220)</p>
       <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <a href="booking.php?service=electrician&provider=Sameer" class="viewProfile">
+        <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
   Book Now
 </a>
     </div>
@@ -373,10 +373,10 @@ if (!isset($_SESSION['user_id'])) {
 
 
     <div class="images-services cleaing">
-      <img src="CleanerFolder/Cleaner1.jpg" alt="cleaning">
+      <img src="CleanerFolder/Cleaner3.jpg" alt="cleaning">
       <h3>Cleaing Home Services</h3>
       <p>Cleaning Services</p>
-        <p><i class="fa-solid fa-star"></i>4.6(220)</p>
+        <p><i class="fa-solid fa-star"></i>4.5(200)</p>
       <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
       <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
   Book Now

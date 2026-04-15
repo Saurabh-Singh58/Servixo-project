@@ -149,7 +149,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Plumbing Services</p>
         <p><i class="fa-solid fa-star"></i>4.5(120)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=plumber&provider=Ramesh" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services painter">
@@ -158,7 +160,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Painter</p>
         <p><i class="fa-solid fa-star"></i>4.6(220)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=painter&provider=Tom Holland" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -168,7 +172,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Plumbing Services</p>
         <p><i class="fa-solid fa-star"></i>4.7(420)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=plumber&provider=Nancy" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -178,7 +184,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Plumbing Services</p>
         <p><i class="fa-solid fa-star"></i>4.4(140)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=plumber&provider=Alex" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -188,7 +196,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Plumbing Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(165)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=plumber&provider=John" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services painter">
@@ -197,7 +207,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Painter</p>
         <p><i class="fa-solid fa-star"></i>4.8(500)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=painter&provider=Peter" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services plumber">
@@ -206,7 +218,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Plumbing Services</p>
         <p><i class="fa-solid fa-star"></i>4.7(335)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=plumber&provider=Tappu" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -216,7 +230,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Electrical Services</p>
         <p><i class="fa-solid fa-star"></i>4.3(100)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile"> Book Now </button>
+        <a href="booking.php?service=electrician&provider=Sameer" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services electrician">
@@ -225,7 +241,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Electrical Services</p>
         <p><i class="fa-solid fa-star"></i>4.3(120)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile"> Book Now </button>
+        <a href="booking.php?service=electrician&provider=Johny" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services electrician">
@@ -234,7 +252,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Electrical Services</p>
         <p><i class="fa-solid fa-star"></i>4.5(230)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile"> Book Now </button>
+         <a href="booking.php?service=electrician&provider=Mayank" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services electrician">
@@ -243,7 +263,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Electrical Services</p>
         <p><i class="fa-solid fa-star"></i>4.2(90)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile"> Book Now </button>
+         <a href="booking.php?service=electrician&provider=Sam" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services painter">
@@ -252,7 +274,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Painter</p>
         <p><i class="fa-solid fa-star"></i>4.7(320)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=painter&provider=Hulk" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services electrician" >
@@ -261,7 +285,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Electrical Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(306)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile"> Book Now </button>
+         <a href="booking.php?service=electrician&provider=Anand" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -271,7 +297,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Home Tutor</p>
         <p><i class="fa-solid fa-star"></i>4.2(90)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=tutor&provider=Sakshi" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services tutor">
@@ -280,7 +308,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Home Tutor</p>
         <p><i class="fa-solid fa-star"></i>4.4(190)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=tutor&provider=Anjali" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services tutor">
@@ -289,7 +319,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Home Tutor</p>
         <p><i class="fa-solid fa-star"></i>4.5(203)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=tutor&provider=Ammy" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services tutor">
@@ -298,7 +330,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Home Tutor</p>
         <p><i class="fa-solid fa-star"></i>4.8(290)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=tutor&provider=Anshul" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services tutor">
@@ -307,7 +341,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Home Tutor</p>
         <p><i class="fa-solid fa-star"></i>4.4(120)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=tutor&provider=Priya" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -318,7 +354,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Capentary Services</p>
         <p><i class="fa-solid fa-star"></i>4.2(85)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=carpenter&provider=Aman" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services carpenter">
@@ -327,7 +365,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Capentary Services</p>
         <p><i class="fa-solid fa-star"></i>4.4(185)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=carpenter&provider=Leanord" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services carpenter">
@@ -336,7 +376,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Capentary Services</p>
         <p><i class="fa-solid fa-star"></i>4.5(115)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=carpenter&provider=Hommy" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services painter">
@@ -345,7 +387,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Painter</p>
         <p><i class="fa-solid fa-star"></i>4.8(520)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=painter&provider=Wanda" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -355,7 +399,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Capentary Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(285)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=carpenter&provider=Rajesh" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services carpenter">
@@ -364,7 +410,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Capentary Services</p>
         <p><i class="fa-solid fa-star"></i>4.5(199)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=carpenter&provider=Mike" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -374,7 +422,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(220)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -384,7 +434,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.6(210)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -396,7 +448,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.2(130)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+         <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -406,7 +460,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.5(200)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
+  Book Now
+</a>
       </div>
 
       <div class="images-services painter">
@@ -415,7 +471,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Painter</p>
         <p><i class="fa-solid fa-star"></i>4.7(320)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=painter&provider=Sheldon" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
@@ -425,7 +483,9 @@ if (!isset($_SESSION['user_id'])) {
         <p>Cleaning Services</p>
         <p><i class="fa-solid fa-star"></i>4.7(320)</p>
         <p><i class="fa-solid fa-location-dot"></i>Dehradun</p>
-        <button class="viewProfile">Book Now</button>
+        <a href="booking.php?service=cleaner&provider=CleanHome" class="viewProfile">
+  Book Now
+</a>
       </div>
 
 
