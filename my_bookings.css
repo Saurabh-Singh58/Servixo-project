@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', Arial;
+    background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+    min-height: 100vh;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.top-bar h2 {
+    color: #333;
+}
+
+.back-btn {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #0056b3;
+}
+
+/* Main container */
+.main-container {
+    padding: 40px 20px;
+}
+
+/* Grid FIXED */
+.booking-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   /* center cards */
+    gap: 25px;
+}
+
+/* Card (NOW SMALL & CLEAN) */
+.booking-card {
+    width: 260px;   /* fixed small width */
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.booking-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Title */
+.booking-card h3 {
+    color: #007bff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Provider */
+.provider {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Info */
+.info p {
+    font-size: 13px;
+    margin: 4px 0;
+    color: #444;
+}
+
+/* Status */
+.status {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Status colors */
+.status.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status.completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+/* Empty state */
+.empty {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.empty h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    margin-top: 35px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}

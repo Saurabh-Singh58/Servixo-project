@@ -24,7 +24,7 @@ $sql = "INSERT INTO bookings
 VALUES 
 ('$name', '$phone', '$service', '$provider', '$location', '$date', '$time', '$urgency', '$message')";
 
-// // 4. Execute query
+// 4. Execute query
 // if ($conn->query($sql) === TRUE) {
 //     // SUCCESS PAGE
 //     echo "<h2>✅ Booking Saved Successfully!</h2>";
@@ -35,13 +35,16 @@ VALUES
 
 // // 5. Close connection
 // $conn->close();
+if (!$conn->query($sql)) {
+    echo "Error: " . $conn->error;
+}
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>Booking Success</title>
-    <link rel="stylesheet" href="booking-success.css"
+    <link rel="stylesheet" href="booking-success.css">
 </head>
 <body style="font-family:Arial; text-align:center; margin-top:50px;">
 
@@ -56,11 +59,10 @@ VALUES
     <p><b>Date:</b> <?php echo $date; ?></p>
     <p><b>Time:</b> <?php echo $time; ?></p>
 
-    <div class="home-btn">
-
-    
+    <div class="home-btn">  
 
     <a href="home.php">Go Back to Home</a>
+    
     </div>
 
     </div>

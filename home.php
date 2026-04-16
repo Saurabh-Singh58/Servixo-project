@@ -59,6 +59,7 @@ if (!isset($_SESSION['user_id'])) {
             <a  href="home.php" class="home anchor">Home</a>
             <a href="services.php" class="service anchor">Services</a>
             <a href="about.php" class="aboutUs anchor">About Us</a>
+            <a href="my_bookings.php" class="myBookinh anchor">My Bookings</a>
             
 
 <!--            

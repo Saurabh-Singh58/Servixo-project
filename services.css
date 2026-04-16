@@ -399,7 +399,9 @@ nav .anchor:hover {
 .images-services p{
     color: #5f6c7e;
 }
- 
+.images-services a{
+  text-decoration: none;
+}
 
 .fa-star{
     color: rgb(255, 212, 59);
@@ -419,7 +421,7 @@ nav .anchor:hover {
 
  
 .viewProfile{
-  text-decoration: none;
+   text-decoration: none;
     margin: 5px 0px 5px 22px ;
      
     font-size: 14px;
